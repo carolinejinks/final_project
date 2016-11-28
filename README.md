@@ -3,9 +3,10 @@ This week I created original images in Adobe Illustrator and exported them as tr
 
 I also wrote text for the images within these sections. I used the following data and referenced the following Wikipedia pages for content.
 
-
-
-
+-https://en.wikipedia.org/wiki/Gramophone_record
+-https://en.wikipedia.org/wiki/Compact_Cassette
+-https://en.wikipedia.org/wiki/Compact_disc
+-https://en.wikipedia.org/wiki/MP3
 
 I built a header with a sleek font and a nice-looking background but decided not to make it fixed because I thought it would be distracting when users scroll through the page and try to take in all the animation/graphics.
 
