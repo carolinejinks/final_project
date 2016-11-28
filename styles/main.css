@@ -1,0 +1,47 @@
+* {
+    -webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+			box-sizing: border-box;
+}
+
+body {
+  background-color: #5A6678;
+  color: #fff;
+}
+
+header {
+width: 100%;
+padding: 50px;
+text-align: center;
+font-size: 50px;
+font-family: 'Bungee Inline', cursive;
+background-color: #73171B;
+
+}
+
+img {
+  max-width: 100%;
+  padding: 5px;
+}
+
+button {
+  background-color:#5A6678;
+  border: 0px;
+}
+
+
+section {
+  max-width: 25%;
+  float: left;
+  padding: 0 20px 0 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+@media (max-width: 800px) {
+ section {
+   max-width: 100%;
+ }
+ img {
+   max-width: 50%;
+ }
+}
