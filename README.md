@@ -15,3 +15,5 @@ My biggest struggle was getting the audio clips to play when the mouse hovered o
 code used for audio play found here: http://stackoverflow.com/questions/3013883/play-audio-file-on-hover-and-stop-playing-on-mouseout
 
 It is not the way I have been using javascript as it is embedded within the HTML, however it worked when I tested it and was the only code that made sense with the way I had set up my page. I made each image a button and hid the audio using javascript so that when the mouse enters the button the audio clip plays and when the mouse leaves the button it pauses. The audio clips are 30 seconds and from songs off of the albums that are referenced in the corresponding text.
+
+I am really proud of my images and the audio that comes with them. I'm really excited to make them animate! Something that I think would make them look nicer would be having them lined up so that the text for each column is aligned at the top. I am considering putting the images and the text in separate sections but I am concerned about how to set up the floats. This could be something I can improve upon.
