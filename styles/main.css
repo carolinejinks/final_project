@@ -30,12 +30,37 @@ button {
 }
 
 
-section {
+div {
   max-width: 25%;
   float: left;
   padding: 0 20px 0 20px;
   font-family: 'Raleway', sans-serif;
 }
+
+section {
+  width: 100%;
+  background: #fff;
+  color: #000;
+}
+
+
+#image_record{
+  animation:.9s rotateRight infinite linear;
+  animation-play-state: paused;
+}
+#image_record:hover{
+  animation-play-state: running;
+}
+#cd_image{
+    animation:1.3s rotateRight infinite linear;
+    animation-play-state: paused;
+}
+#cd_image:hover{
+  animation-play-state: running;
+}
+
+
+
 
 @media (max-width: 800px) {
  section {
@@ -44,4 +69,10 @@ section {
  img {
    max-width: 50%;
  }
+}
+
+
+@keyframes rotateRight{
+    0%{ transform:rotate(0deg); transform-origin:50% 50%; }
+    100%{ transform:rotate(360deg); }
 }
