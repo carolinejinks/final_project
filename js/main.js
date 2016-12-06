@@ -3,10 +3,31 @@ $(document).ready(function() {
   });
 
 $('#records').on('mouseenter', '#image_record', function() {
-$('#thriller').play();
+$('#thriller').get(0).play();
 });
 $('#records').on('mouseleave', '#image_record', function() {
-	$('#thriller').pause();
+	$('#thriller').get(0).pause();
+});
+
+$('#tapes').on('mouseenter', '#tape_image', function() {
+$('#thunder').get(0).play();
+});
+$('#tapes').on('mouseleave', '#tape_image', function() {
+	$('#thunder').get(0).pause();
+});
+
+$('#cds').on('mouseenter', '#cd_image', function() {
+$('#bye').get(0).play();
+});
+$('#cds').on('mouseleave', '#cd_image', function() {
+	$('#bye').get(0).pause();
+});
+
+$('#soundwaves').on('mouseenter', '#soundwave_image', function() {
+$('#rolling').get(0).play();
+});
+$('#soundwaves').on('mouseleave', '#soundwave_image', function() {
+	$('#rolling').get(0).pause();
 });
 
 $(".sections").css( {'height': (  $(window).height() )
