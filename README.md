@@ -45,3 +45,21 @@ I still can't get the audio to play on mouseenter using the correct javascript c
 Another issue is that with all of my added CSS, my page no longer seems to be responsive. This could be because of the @keyframes I added at the bottom that could be throwing off the @media, however I tried flipping the two and nothing changed.
 
 Even though this week's work seemed to conflict with what I did last week, I still think there was significant progress. Even though these issues are frustrating, I know that when they're fixed it will be a big breakthrough!
+
+Week 3
+
+This week I was able to use the RIAA data and put it into a Highcharts chart. This was particularly challenging as I hadnt considered that there was no way to export the data from the RIAA website, so I had to manually unput all of the data from the specific audio format categories that I wanted to include in my own chart. Also, something went awry when I put in the chart and none of my Javascript was working. This problem ate into a lot of my time but thanks to your help I was able to get back on track!
+
+In addition to formatting and inserting the chart, I places images (all the same size!) of the album covers into my sections for each album. I used floats within the sections to ensure that the images were on the left and the text about each image was on the right.
+
+I also went back to some earlier week's work and tweaked some things. For example, I fixed the CD so that it is centered and made the inside of it transparent (no more annoying white hole in the middle).
+
+Some things I want to take care of before it is done:
+
+-CSS. I'm not done making it look beautiful and there are some things I would like to do to make it look more cohesive. For example, picking the background colors of each section so they look nice with the colors in the album cover for that particular section.
+
+-Highcharts. I would like to fiddle with the theme colors and see if I can get the text on the axis to appear in white rather than the dark color that fades into the page.
+
+-Responsiveness. I want to make sure everything looks nice on different devices.I still haven't figured out why my @media doesn't work but I'm sure it's something small I'm missing.
+
+So basically all that's left is to tidy it up now that everything is functioning and where I want it to be!

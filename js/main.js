@@ -1,10 +1,12 @@
 $(document).ready(function() {
-  $('.audio').hide();
-  });
+
+$('.audio').hide();
+
 
 $('#records').on('mouseenter', '#image_record', function() {
-$('#thriller').get(0).play();
+  $('#thriller').get(0).play();
 });
+
 $('#records').on('mouseleave', '#image_record', function() {
 	$('#thriller').get(0).pause();
 });
@@ -54,7 +56,6 @@ $("#soundwave_image").click(function(){
   $("#sec4").slideToggle();
 });
 
-
 $(".sections").click(function(){
   $(".sections").hide();
   $("article").show();
@@ -84,3 +85,6 @@ $('#tapes').on('mouseenter mouseleave', function(){
     $('#tapes img').attr('src', tape);
   }
 });
+
+
+}); // do not delete - document ready function

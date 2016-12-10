@@ -13,7 +13,7 @@ header {
 width: 100%;
 padding: 50px;
 text-align: center;
-font-size: 50px;
+font-size: 80px;
 font-family: 'Bungee Inline', cursive;
 background-color: #73171B;
 
@@ -24,24 +24,31 @@ img {
   padding: 5px;
 }
 
-button {
-  background-color:#5A6678;
-  border: 0px;
-}
 
 
-div {
+
+.format {
   max-width: 25%;
   float: left;
   padding: 0 20px 0 20px;
   font-family: 'Raleway', sans-serif;
 }
 
+
 section {
   width: 100%;
   background: #fff;
   color: #000;
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  padding: 20px;
 }
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+}
+
 
 
 #image_record{
@@ -59,8 +66,20 @@ section {
   animation-play-state: running;
 }
 
+#container {
+  clear:both;
+  padding: 20px;
+}
 
+.cover {
+  float:left;
+  padding-right: 50px;
+}
 
+@keyframes rotateRight{
+    0%{ transform:rotate(0deg); transform-origin:50% 50%; }
+    100%{ transform:rotate(360deg); }
+}
 
 @media (max-width: 800px) {
  section {
@@ -69,10 +88,4 @@ section {
  img {
    max-width: 50%;
  }
-}
-
-
-@keyframes rotateRight{
-    0%{ transform:rotate(0deg); transform-origin:50% 50%; }
-    100%{ transform:rotate(360deg); }
 }
